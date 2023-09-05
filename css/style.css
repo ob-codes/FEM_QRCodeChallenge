@@ -1,0 +1,71 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  max-width: 375px;
+  margin: 10px auto;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.main{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px 15px 0 15px;
+}
+.container-for-image{
+  background: url("../images/image-qr-code.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 20px;
+  height: 350px;
+}
+.container-for-text{
+  height: 200px;
+}
+.container-for-text > *{
+  margin: 0;
+}
+
+h2{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700px;
+  font-size: 22px;
+  padding: 5% 0;
+}
+p{
+  color: hsl(220, 15%, 55%);
+  font-weight: 400px;
+  font-size: 15px;
+  padding: 0 2%;
+}
