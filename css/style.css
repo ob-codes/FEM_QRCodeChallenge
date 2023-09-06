@@ -28,8 +28,7 @@
 
 body{
   background-color: hsl(212, 45%, 89%);
-  max-width: 375px;
-  margin: 10px auto;
+  padding: 5%;
 }
 
 /******************************************
@@ -39,6 +38,8 @@ body{
 .main{
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
+  max-width: 375px;
+  margin: auto;
   text-align: center;
   padding: 15px 15px 0 15px;
 }
